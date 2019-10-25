@@ -52,6 +52,18 @@ class App extends Component {
 	 // console.log("done!", this.state);
 	}
 	
+	componentDidMount() {
+	  this.handleChange(1);
+	  this.handleChange(4);
+	  this.handleChange(7);
+	  this.handleChange(6);
+	  this.handleChange(3);
+	  this.handleChange(0);
+	  this.handleChange(1);
+	  this.handleChange(4);
+	  this.handleChange(7);	  
+  }
+	
   handleChange(nClicked) {
     if ( nClicked >= 0 && nClicked <= 8  ) {
       for(var i = 0; this.state.movs['b_' + nClicked].near.length > i; i++) {
