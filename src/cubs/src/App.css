@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.multibox {
+  border: 3px double #ccc;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 300px;
+  max-height: 400px;
+  align-content: stretch;
+}
+
+.multibox .box {
+  flex-basis: 33.3%;
+}
+.multibox .box.green {
+  background: green;
+}
+.multibox .box.pink {
+ background: pink;
+}
+.multibox .box.orange {
+ background: orange;
+}
+.multibox .box.blue {
+ background: blue;
+}
+.multibox .box.red {
+ background: red;
+}
+.multibox .box.brown {
+ background: brown;
+}
+.multibox .box.grey {
+ background: grey;
+}
+.multibox .box.skyblue {
+ background: skyblue;
+}
