@@ -45,8 +45,29 @@
 .multibox .box.green {
   background: green;
 }
-.multibox .box.pink {
- background: pink;
+.multibox .box.img_1 {
+ background-image: url('/i-8.jpg')
+}
+.multibox .box.img_2 {
+ background-image: url('/i-7.jpg')
+}
+.multibox .box.img_3 {
+ background-image: url('/i-6.jpg')
+}
+.multibox .box.img_4 {
+ background-image: url('/i-5.jpg')
+}
+.multibox .box.img_5 {
+ background-image: url('/i-4.jpg')
+}
+.multibox .box.img_6 {
+ background-image: url('/i-3.jpg')
+}
+.multibox .box.img_7 {
+ background-image: url('/i-2.jpg')
+}
+.multibox .box.img_8 {
+ background-image: url('/i-1.jpg')
 }
 .multibox .box.orange {
  background: orange;

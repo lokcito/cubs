@@ -13,35 +13,35 @@ class App extends Component {
           'near': ['b_1', 'b_3']
         },
         'b_1': {
-          'color': 'pink',
+          'color': 'img_1',
           'near': ['b_0', 'b_2', 'b_4']
         },
         'b_2': {
-          'color': 'pink',
+          'color': 'img_2',
           'near': ['b_1', 'b_5',]
         },
         'b_3': {
-          'color': 'brown',
+          'color': 'img_3',
           'near': ['b_0', 'b_4', 'b_6'],
         },
         'b_4': {
-          'color': 'brown',
+          'color': 'img_4',
           'near': ['b_1', 'b_3', 'b_5', 'b_7'],
         },
         'b_5': {
-          'color': 'brown',
+          'color': 'img_5',
           'near': ['b_2', 'b_4', 'b_8'],
         },
         'b_6': {
-          'color': 'orange',
+          'color': 'img_6',
           'near': ['b_3', 'b_7',],
         },
         'b_7': {
-          'color': 'orange',
+          'color': 'img_7',
           'near': ['b_6', 'b_4', 'b_8'],
         },
         'b_8': {
-          'color': 'orange',
+          'color': 'img_8',
           'near': ['b_7', 'b_5'],
         },
       }
@@ -97,6 +97,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="wrapper">
+          <img src="./bearx.jpg" className="App-logo" alt="logo" />
+        </div>
         <div className="wrapper">
           <div className="multibox">
             <Block number={0} 
